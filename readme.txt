@@ -1,6 +1,4 @@
-=== BlogSixteen ===
-
-https://wordpress.org/themes/blogsixteen/
+=== Modernscape ===
 
 Contributors: automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
@@ -8,8 +6,8 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 Requires at least: 4.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
 == Installation ==
@@ -22,31 +20,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 = Does this theme support any plugins? =
 
-BlogSixteen includes support for Infinite Scroll in Jetpack.
-BlogSixteen will be supporting "Carousel Owl 2.0" - developed by Marcus Tisäter
-BlogSixteen will be supporting predefined forms for Contact Form 7
+Modernscape includes support for Infinite Scroll in Jetpack.
+
+Modernscape includes an Adblock Acceptable Ads top-page advert, compatible with Advanced Ads.
+To use, specify a Manual Placement advert called 'above-title' (without quotes). Ensure you
+enable a border and Advertisement label to be Acceptable Ads compliant.
 
 == Changelog for major releases ==
 
-= 1.0 - May 12 2015 =
-* Initial release
-= 1.1 - November 11 2015 =
-* Added customiser for header-images, colors and logotype
-* Added more design for theme functions
-* Improvement of dropdown navigation
-= 1.4.5 - January 2016 
-* Added accessibility fixes
-* Added new navigation 
-* Styling adjustments for sub-menus
+For changes prior to forking from BlogSixteen, please see readme.old.txt.
 
-== Upcoming Release fixes the==
-* Improvement of customiser
+= 0.5.0 - 2016-11-16 =
+* Initial release.
+= 0.5.2 - 2017-04-09 =
+* Added colourful design to menu.
+* Added a footer menu, integrated with customise.
+* Replaced default image.
+
+For pending changes, please check out the GitHub tracker for this project.
+https://github.com/ReviveToday/Modernscape/issues
 
 == Photography (Images) ==
 
-The image folder includes a license free image from José Iñesta at unsplash.com used for the header.
+The default header image included was taken by the plugin author, and is licensed under the 
+Creative Commons Attribution-ShareAlike 4.0 International license. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
 == Credits ==
 
-* Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* Based on BlogSixteen https://en-gb.wordpress.org/themes/blogsixteen/, , [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* Original theme based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2015 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
