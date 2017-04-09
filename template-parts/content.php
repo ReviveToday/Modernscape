@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package BlogSixteen
+ * @package Modernscape
  */
 
 ?>
@@ -14,7 +14,7 @@
 	<header class="entry-header">
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php blogsixteen_posted_on(); ?>
+			<?php modernscape_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 
@@ -25,14 +25,14 @@
 		<?php
 			the_excerpt( sprintf(
 				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'blogsixteen' ), array( 'span' => array( 'class' => array() ) ) ),
+				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'modernscape' ), array( 'span' => array( 'class' => array() ) ) ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 		?>
 
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'blogsixteen' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'modernscape' ),
 				'after'  => '</div>',
 			) );
 		?>

@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package BlogSixteen
+ * @package Modernscape
  */
 
 get_header(); ?>
@@ -14,11 +14,11 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'That page cannot be found.', 'blogsixteen' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'That page cannot be found.', 'modernscape' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Please use the menu above to find what you were looking for.', 'blogsixteen' ); ?></p>
+					<p><?php esc_html_e( 'It looks like nothing was found at this location. Please use the menu above to find what you were looking for.', 'modernscape' ); ?></p>
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->

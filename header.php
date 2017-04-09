@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package BlogSixteen
+ * @package Modernscape
  */
 
 ?><!DOCTYPE html>
@@ -22,13 +22,13 @@
 
 <body <?php body_class(); ?>>
 
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blogsixteen' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'modernscape' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<?php if ( get_theme_mod( 'blogsixteen_logo' ) ) : ?>
+			<?php if ( get_theme_mod( 'modernscape_logo' ) ) : ?>
 				  <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				    <img src="<?php echo esc_url( get_theme_mod( 'blogsixteen_logo' ) ); ?>" width="250px" height:"auto" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+				    <img src="<?php echo esc_url( get_theme_mod( 'modernscape_logo' ) ); ?>" width="250px" height:"auto" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 				  </a>
 				  <?php else : ?>
 				  <hgroup>
@@ -37,9 +37,9 @@
 					</hgroup>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-		<nav role="navigation" id="site-navigation" class="main-navigation" aria-label='<?php _e( 'Primary Menu ', 'blogsixteen' ); ?>'>
+		<nav role="navigation" id="site-navigation" class="main-navigation" aria-label='<?php _e( 'Primary Menu ', 'modernscape' ); ?>'>
 			<div class="header-menu">
-				<h1 class="screen-reader-text"><?php _e( 'Primary Menu', 'blogsixteen' ); ?></h1>
+				<h1 class="screen-reader-text"><?php _e( 'Primary Menu', 'modernscape' ); ?></h1>
 				<?php wp_nav_menu( array( 'theme_location'=>'primary' ) ); ?>
 			</div>
 		</nav>

@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package BlogSixteen
+ * @package Modernscape
  */
 
 ?>
@@ -18,7 +18,7 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'blogsixteen' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'modernscape' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -29,7 +29,7 @@
 			edit_post_link(
 				sprintf(
 					/* translators: %s: Name of current post */
-					esc_html__( 'Edit %s', 'blogsixteen' ),
+					esc_html__( 'Edit %s', 'modernscape' ),
 					the_title( '<span class="screen-reader-text">"', '"</span>', false )
 				),
 				'<span class="edit-link">',

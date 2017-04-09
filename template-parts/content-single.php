@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package BlogSixteen
+ * @package Modernscape
  */
 
 ?>
@@ -19,7 +19,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php blogsixteen_posted_on(); ?>
+			<?php modernscape_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -27,13 +27,13 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'blogsixteen' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'modernscape' ),
 				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php blogsixteen_entry_footer(); ?>
+		<?php modernscape_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

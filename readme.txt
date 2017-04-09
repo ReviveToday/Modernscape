@@ -36,6 +36,8 @@ For changes prior to forking from BlogSixteen, please see readme.old.txt.
 * Added colourful design to menu.
 * Added a footer menu, integrated with customise.
 * Replaced default image.
+= 0.5.3 - 2017-04-09 =
+* BlogSixteen references replaced with Modernscape.
 
 For pending changes, please check out the GitHub tracker for this project.
 https://github.com/ReviveToday/Modernscape/issues
