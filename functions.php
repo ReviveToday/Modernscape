@@ -161,6 +161,19 @@ function blogsixteen_add_editor_styles() {
 add_action( 'admin_init', 'blogsixteen_add_editor_styles' );
 
 /**
+ * Register footer menu
+ */
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'footer-menu' => __( 'Footer Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
+
+/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';

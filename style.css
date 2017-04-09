@@ -1151,3 +1151,33 @@ blockquote p {
 	text-align: right;
 	margin-top: 10px;
 }
+
+/*--------------------------------------------------------------
+# Modifications (pending sheet integration)
+--------------------------------------------------------------*/
+
+.main-navigation ul ul {
+	top: 2.25em;
+}
+
+/* Give the menu a colour scheme based on the PS2 logo */
+.main-navigation, #catapult-cookie-bar {
+	background: #43adc9;
+	background: -moz-linear-gradient(top, #43adc9 0%, #4555a0 100%);
+	background: -webkit-linear-gradient(top, #43adc9 0%,#4555a0 100%);
+	background: linear-gradient(to bottom, #43adc9 0%,#4555a0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43adc9', endColorstr='#4555a0',GradientType=0 );
+}
+
+ins {
+    background: rgba(255, 255, 255, 0);
+}
+
+.reviv-adlabel {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#wp-admin-bar-advanced_ads_ad_health, #wp-admin-bar-archiver, #wp-admin-bar-wpseo-menu {
+    display: none;
+}

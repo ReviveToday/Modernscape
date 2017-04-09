@@ -14,6 +14,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#C500FF">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
@@ -47,3 +48,8 @@
 	<div id="page" class="hfeed site">
 
 	<div id="content" class="site-content">
+        <?php 
+		if (function_exists('the_ad_placement')) {
+			the_ad_placement('above-title'); 
+		}
+		?>
