@@ -1,6 +1,8 @@
 # Modernscape
  WordPress theme used for [Revive Today](https://revive.today).
 
+![Screenshot of the theme](https://github.com/ReviveToday/Modernscape/blob/master/screenshot.png)
+
  The theme is a fork of [BlogSixteen](https://wordpress.org/themes/blogsixteen/).
 
 ## Installation
